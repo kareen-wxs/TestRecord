@@ -20,7 +20,7 @@
     cp .env.example .env
     php artisan key:generate
 
-Запустить миграции и сидеры:
+4. Запустить миграции и сидеры:
     ```bash
     php artisan migrate --seed
 
@@ -39,7 +39,7 @@
 
 В настройках проекта в админке указать ID Google-таблицы для синхронизации.
 
-Запуск
+5. Запуск
     ```bash
     php artisan serve
 
