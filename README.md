@@ -9,19 +9,19 @@
    git clone git@github.com:kareen-wxs/TestRecord.git
    cd TestRecord
 
-Установить зависимости:
-composer install
-npm install
-npm run dev
+2. Установить зависимости:
+    composer install
+    npm install
+    npm run dev
 
-Настроить файл окружения:
-cp .env.example .env
-php artisan key:generate
+3. Настроить файл окружения:
+    cp .env.example .env
+    php artisan key:generate
 
 Запустить миграции и сидеры:
-php artisan migrate --seed
+ php artisan migrate --seed
 
-Google Sheets API
+## Google Sheets API
 
 Для синхронизации с Google Sheets необходимо:
 
@@ -37,7 +37,7 @@ Google Sheets API
 В настройках проекта в админке указать ID Google-таблицы для синхронизации.
 
 Запуск
-php artisan serve
+    php artisan serve
 
 Дополнительно
 
