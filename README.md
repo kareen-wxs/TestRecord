@@ -10,16 +10,19 @@
    cd TestRecord
 
 2. Установить зависимости:
+    ```bash
     composer install
     npm install
     npm run dev
 
 3. Настроить файл окружения:
+    ```bash
     cp .env.example .env
     php artisan key:generate
 
 Запустить миграции и сидеры:
- php artisan migrate --seed
+    ```bash
+    php artisan migrate --seed
 
 ## Google Sheets API
 
@@ -37,6 +40,7 @@
 В настройках проекта в админке указать ID Google-таблицы для синхронизации.
 
 Запуск
+    ```bash
     php artisan serve
 
 Дополнительно
